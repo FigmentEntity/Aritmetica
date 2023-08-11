@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What are scales?</title>
+    <title>set</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body onload="document.body.style.opacity='1'">
 
     <div class="logo">
-        <h1>SET</h1>
+        <h1>-SET-</h1>
     </div>
 
     <div class="subhead logo">
@@ -22,7 +22,7 @@
         <p class="text">
         A set is a collection of well defined and unique elements. Sets are generally denoted by capital letters and the elements of a set are cased within a pair of curly brackets.<br><br>
         Example: A = {1,2,3} is a set because each of the element is unique and well defined however A = {1, 2, 2, 3} is not a set because the element 2 is repeated, and therefore the elements are no longer unique to each other.
-        </p>
+        </p><br><br>
 
     <div class="subhead logo">
        -Important symbols to remember in set-
@@ -35,7 +35,8 @@
             iii. [⊆] = Contained in / Subset of; <br><br>
             iv. [,] = And; <br><br>
             v. [∀] = For all / For every;<br><br>
-        </p>
+            vi. [∉] = Does not belongs to;<br><br>
+        </p><br><br>
 
         <div class="subhead logo">
         -Representation of set-
@@ -44,17 +45,77 @@
              <p class="text">     
                 i. Roaster/Tabular form: A = {1,2,3,4,5} <br><br>
                 ii. Set builder/Property form: A = {x : 0 < x < 6, x ∈ } 
-             </p>
+             </p><br><br>
 
         <div class="subhead logo">
             -Types of sets-
         </div>
         <p class="text">
             i. Finite sets: Sets with defined end point. Example: {x : 0 < x < 5} <br><br>
-            . <br><br>
-            . <br><br>
-            . <br><br>
-            . <br><br>
+            ii. Infinite sets: Sets with no defined end point. Example: {x : x ∈ N} <br><br>
+            iii. Void/Null/Empty sets: Sets with no elements. They are denoted by {} or Φ. Example: Your love life.<br><br>
+            iv. Singleton set: Sets with only one element. Example: {x : 0 < x < 2} 
+        </p><br><br>
+
+        <div class="subhead logo">-Denotions of some standard infinite sets-</div>
+        <p class="text">
+            i. N : Used to denote the infinite Natural number set. <br><br>
+            ii. W : Used to denote the infinite Whole number set.
+            <br><br>
+            iii. R : Used to denote the infinite Real number set. <br><br>
+            iv. R<sup>+</sup> : Used to denote the infinite positive Real number set.
+            <br><br>
+            v. R<sup>-</sup> : Used to denote the infinite negative Real number set. <br><br>
+            vi. Q : Used to denote the infinite Rational number set.
+            <br><br>
+            vii. Z/I: Used to denote the infinite Integer number set.
+            <br><br>
+            viii. Z<sup>+</sup>/I<sup>+</sup>: Used to denote the infinite positive Integer number set.
+            <br><br>
+            ix. Z<sup>-</sup>/I<sup>-</sup>: Used to denote the infinite negative Integer number set.
+            <br><br>
+            x. R-Q: used to denote the infinite Irrational number set.
+        </p><br><br>
+        <div class="subhead logo">
+            -Relation between sets-
+        </div>
+        <p class="text">
+            i. Subsets: If the all the elements of set A is present in set B, then set A would be the subset of set B. Denoted by ⊆.<br>
+            -Example: A = {1,2} and B = {2,3,1,4}, then A ⊆ B
+            <br><br>
+            ii. Equal sets: If set A is the subset of B and vice versa, the we can say that A and B are equal sets. Denoted by =.<br>
+            -Example: A = {1,2} and B = {1, 2}. Here, A ⊆ B and B ⊆ A, so, A = B.
+            <br><br>
+            iii. Disjoint sets: If set A and set B have no common elements at all, then we can say that they are disjoint sets. 
+            <br>
+            -Example: A = {1,2} and B = {Barrack, Obama}
+            <br><br>
+            iv. Universal set: Sets contaning all the relevant elements to a question is referred to as Universal sets. Essentially its the daddy of all sets. Denoted by U. 
+            <br><br>
+            v. Intersecting set: If there are common elements between set A and set B, then they are referred to as intersecting sets. Denoted by ∩. <br>
+            -Example: A = {1,2} and B = {2, 4}. The two sets have 2 in common so they're intersecting sets.
+            <br><br>
+            vi. Power sets: The set including all possible subsets of set A along with itself and a null set is termed power set. Denoted by P(). <br>
+            -Example: A: {1, 2}, then P(A) = {{},{1},{2},{1,2}} <br><br>
         </p>
+
+        <div class="subhead logo">-Set operations-</div>
+        <p class="text">
+            i. Union: The new set formed from the sum of two sets.Denoted by U and expressed by {x : x ∈ A or x ∈ B} <br>
+            -Example: A{1,2,3} U B{2,4,5} would be AUB{1,2,3,4,5}. Common elements are written once and ignored.
+            <br><br>
+            ii. Intersection: The new set formed from the common elements of two sets. Denoted by ∩ and expressed by {x : x ∈ A and x ∈ B } <br>
+            -Example: A = {1,2} ∩ B = {2, 3} would be A∩B{2}
+            <br><br>
+            iii. Difference: The new set containing only elements of only set A excluding the elements of set B. Denoted by - and expressed by {x : x ∈ A but x ∉ B}<br>
+            -Example: A{2,3,5} - B{3,4} would be A-B = {2,5}
+            <br><br>
+            iv. Complement: The new set contaning all elements except set that is complemented. Denoted by Ā/A<sup>c</sup>/A<sup>'</sup> and expressed by {x : x ∈ U but x ∉ A}<br>
+            -Example: U = {x : x ∈ N} and A = {1,2,3}. So, the complement of A would be Ā{4,5,6,..∞}
+            <br><br>
+            v. Symmetrical difference: The new set formed from the differences between two sets. Denoted by Δ and expressed by {x : x ∈ (A-B) or x ∈ (B-A)} <br>
+            -Example: A = {1,2,3} and B = {3, 4, 5}. Then, the symmetrical difference of the sets would be (A-B)U(B-A) i.e {1,2}U{4,5}. So, AΔB would be {1,2,4,5}. <br><br>
+        </p>
+        <p class="text">...</p>
 </body>
 </html>
