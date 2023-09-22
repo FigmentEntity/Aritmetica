@@ -65,7 +65,7 @@ body{
  }
 
 .r a {
-    color: var(--fgc);
+    color: orangered;
     font-style: italic;
     font-size: 1.3rem;
     
